@@ -1,20 +1,23 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
 .venv/
-.ipynb_checkpoints
-.pytest_cache/
+.env/
 
-# Data & models
-data/raw/*
-!data/raw/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
-models/
-artifacts/
+# Jupyter
+.ipynb_checkpoints/
 
-# OS/Editor
+# Data (don’t commit raw/processed big files)
+data/raw/
+data/processed/
+
+# Artifacts (keep JSON, ignore PNG if large)
+reports/assets/*.png
+!reports/metrics_census.json
+
+# OS
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
