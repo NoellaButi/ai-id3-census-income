@@ -112,11 +112,14 @@ ai-ml-id3-census-income/
   ```
    ![PlayTennis Tree](reports/assets/playtennis_tree.png)
 
+
 2. **Spam Emails Tree** 📧🚨
    ![Emails Tree](reports/assets/emails_tree.png)
 
+
 3. **Census (Pruned ID3 Tree)** 💼
    ![Census ID3 Pruned](reports/assets/census_id3_tree_pruned.png)
+
 
 4. **Top Feature Importances (sklearn)** 📊
    ![Feature Importances](reports/assets/census_dt_feature_importance.png)
