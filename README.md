@@ -11,14 +11,14 @@ Compared against a scikit-learn DecisionTree baseline with one-hot encoded featu
 
 ## 📓 Notebooks
 
-**01 — PlayTennis** (ID3 basics)  
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoellaButi/id3-census-income/blob/main/notebooks/01_playtennis.ipynb)
+- **01 — PlayTennis** (ID3 basics)  
+  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoellaButi/id3-census-income/blob/main/notebooks/01_playtennis.ipynb) | [View on GitHub](https://github.com/NoellaButi/ai-ml-id3-census-income/blob/main/notebooks/01_modeling_playtennis.ipynb)
 
-**02 — Spam Emails** (toy binary dataset)  
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoellaButi/id3-census-income/blob/main/notebooks/02_emails.ipynb)
+- **02 — Spam Emails** (toy binary dataset)  
+  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoellaButi/id3-census-income/blob/main/notebooks/02_emails.ipynb) | [View on GitHub](https://github.com/NoellaButi/ai-ml-id3-census-income/blob/main/notebooks/02_modeling_emails.ipynb)
 
-**03 — Census Income** (full project)  
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoellaButi/id3-census-income/blob/main/notebooks/03_census.ipynb)
+- **03 — Census Income** (full project)  
+  [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/NoellaButi/id3-census-income/blob/main/notebooks/03_census.ipynb) | [View on GitHub](https://github.com/NoellaButi/ai-ml-id3-census-income/blob/main/notebooks/03_modeling_census_income.ipynb)
 
 ---
 
@@ -75,6 +75,8 @@ Compared against a scikit-learn DecisionTree baseline with one-hot encoded featu
 5. **Run notebooks**
 Open any notebook in `notebooks/` (PlayTennis, Emails, or Census).
 
+---
+
 ## 🔹 Project Structure
 ```
 id3-census-income/
@@ -99,23 +101,26 @@ id3-census-income/
 ├─ .gitignore
 └─ README.md
 ```
+---
 
 ## 🔹 Demo Visuals
 
-1. **PlayTennis Tree** 🌤️🎾
-```
-[Outlook]
-├─ Overcast → Yes
-├─ Rain → [Wind: Strong→No, Weak→Yes]
-└─ Sunny → [Humidity: High→No, Normal→Yes]
+1. **PlayTennis Tree** 🌤️🎾  
+   ![PlayTennis Tree](reports/assets/playtennis_tree.png)  
+   ![Emails Tree](reports/assets/emails_tree.png)
 
-```
+2. **Census (Pruned ID3 Tree)** 💼  
+   ![Census ID3 Pruned](reports/assets/census_id3_tree_pruned.png)
 
-2. **Census (Pruned ID3 Tree)** 💼
-To complete
+3. **Top Feature Importances (sklearn)** 📊  
+   ![Feature Importances](reports/assets/census_dt_feature_importance.png)
+
+---
 
 ## 🔹 Top Feature Importances (sklearn) 📊
 to complete
+
+---
 
 ## 🔹 License
 This project is licensed under the MIT License.
