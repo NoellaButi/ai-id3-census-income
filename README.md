@@ -61,9 +61,9 @@ Compared against a scikit-learn DecisionTree baseline with one-hot encoded featu
    ```
 
 2. **Install dependencies**
-  ```bash
-  pip install -r requirements.txt
-  ```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 3. **Preprocess Census dataset**
    ```bash
