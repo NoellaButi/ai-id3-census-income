@@ -117,6 +117,10 @@ ai-ml-id3-census-income/
    ![Emails Tree](reports/assets/emails_tree.png)
 
 
+
+
+
+
 3. **Census (Pruned ID3 Tree)** 💼
    ![Census ID3 Pruned](reports/assets/census_id3_tree_pruned.png)
 
