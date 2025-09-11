@@ -54,4 +54,7 @@ DecisionTree (sk)    0.826       0.680     0.557   0.612
 ```
 
 📜 **License**
+
 MIT (see [LICENSE](LICENSE))
+
+---
