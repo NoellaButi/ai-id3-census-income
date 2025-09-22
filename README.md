@@ -45,8 +45,7 @@ jupyter notebook notebooks/01_modeling_census_income.ipynb
 ai-id3-census-income/
 ├─ data/                 # raw/processed datasets (PlayTennis, Emails, Census)
 ├─ notebooks/            # 01_playtennis.ipynb, 02_emails.ipynb, 03_census_income.ipynb
-├─ reports/              # metrics JSON, confusion matrix, figures
-├─ docs/                 # exported/pruned tree images (Graphviz)
+├─ reports/              # metrics JSON, exported/pruned tree images (Graphviz), figures
 ├─ src/                  # preprocessing + ID3 implementation + helpers
 ├─ requirements.txt
 └─ README.md
