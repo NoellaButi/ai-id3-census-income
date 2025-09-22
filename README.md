@@ -52,10 +52,12 @@ ai-id3-census-income/
 ```
 
 ## 📊 Results (Test Set)
-Model	Accuracy	Precision	Recall	F1
-ID3 (binned)	0.819	0.663	0.538	0.594
-DecisionTree (sklearn)	0.826	0.680	0.557	0.612
-
+```md
+| Model                   | Accuracy | Precision | Recall |   F1   |
+|-------------------------|:--------:|:---------:|:------:|:------:|
+| **ID3 (binned)**        |  0.819   |   0.663   | 0.538  | 0.594  |
+| DecisionTree (sklearn)  |  0.826   |   0.680   | 0.557  | 0.612  |
+```
 
 ## 🖼️ Visuals
 
