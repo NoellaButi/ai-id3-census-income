@@ -84,6 +84,6 @@ ai-id3-census-income/
 - Export/import tree as JSON
 
 ## 📜 License
-MIT (see LICENSE)
+MIT (see [LICENSE](LICENSE))
 
 ---
